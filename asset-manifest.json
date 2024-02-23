@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bethanystanleyonline/static/css/main.25ed3eb7.css",
-    "main.js": "/bethanystanleyonline/static/js/main.48301370.js",
-    "static/js/453.5530e86f.chunk.js": "/bethanystanleyonline/static/js/453.5530e86f.chunk.js",
-    "static/media/koisan.png": "/bethanystanleyonline/static/media/koisan.353e72a609f52f72abdb.png",
-    "static/media/gingham-bg-small.png": "/bethanystanleyonline/static/media/gingham-bg-small.13a88b66b5921b8c8517.png",
-    "index.html": "/bethanystanleyonline/index.html",
-    "main.25ed3eb7.css.map": "/bethanystanleyonline/static/css/main.25ed3eb7.css.map",
-    "main.48301370.js.map": "/bethanystanleyonline/static/js/main.48301370.js.map",
-    "453.5530e86f.chunk.js.map": "/bethanystanleyonline/static/js/453.5530e86f.chunk.js.map"
+    "main.css": "/static/css/main.9f82a4d2.css",
+    "main.js": "/static/js/main.1adadf4c.js",
+    "static/js/453.5530e86f.chunk.js": "/static/js/453.5530e86f.chunk.js",
+    "static/media/koisan.png": "/static/media/koisan.353e72a609f52f72abdb.png",
+    "static/media/gingham-bg-small.png": "/static/media/gingham-bg-small.13a88b66b5921b8c8517.png",
+    "index.html": "/index.html",
+    "main.9f82a4d2.css.map": "/static/css/main.9f82a4d2.css.map",
+    "main.1adadf4c.js.map": "/static/js/main.1adadf4c.js.map",
+    "453.5530e86f.chunk.js.map": "/static/js/453.5530e86f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ed3eb7.css",
-    "static/js/main.48301370.js"
+    "static/css/main.9f82a4d2.css",
+    "static/js/main.1adadf4c.js"
   ]
 }
