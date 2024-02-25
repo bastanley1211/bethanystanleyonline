@@ -12,10 +12,10 @@ class MainFooter extends React.Component {
                     <h3 className="footer-section-heading">Quick Links</h3>
                     <ul>
                         
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="https://www.linkedin.com/in/bethanyporter1211/">LinkedIn Profile</a></li>
+                    <li><a href="https://soundcloud.com/bethanyannemusic/">Soundcloud Profile</a></li>
+                    <li><a href="https://www.instagram.com/bethanyannemusic/">Music Instagram</a></li>
+                    <li><a href="https://github.com/bastanley1211/bethanystanleyonline">Github</a></li>
                     </ul>
                 </Col>
                 <Col className="footer-section-col">
@@ -25,8 +25,8 @@ class MainFooter extends React.Component {
                     <li><Link className="footer-nav-link" to="/" onClick={scrollToTop}>Home</Link></li>
                     <li><Link className="footer-nav-link" to="/about" onClick={scrollToTop}>About</Link></li>
                     <li><Link className="footer-nav-link" to="/music" onClick={scrollToTop}>Music</Link></li>
-                    <li><Link className="footer-nav-link" to="/blog" onClick={scrollToTop}>Blog</Link></li>
-                    <li><Link className="footer-nav-link" to="/media" onClick={scrollToTop}>Media</Link></li>
+                    <li><Link className="footer-nav-link" to="/" onClick={scrollToTop}>Blog</Link></li>
+                    <li><Link className="footer-nav-link" to="/" onClick={scrollToTop}>Media</Link></li>
                     </ul>
                 </Col>
             </Row>
