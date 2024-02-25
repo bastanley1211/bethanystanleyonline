@@ -9,8 +9,8 @@ const Home = () => {
       <Row>
         <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/about">About Me</Link></Col>
         <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/music">My Music</Link></Col>
-        <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/blog">Blog (Coming Soon!)</Link></Col>
-        <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/media">Other Media (Coming Soon!)</Link></Col>
+        <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/">Blog (Coming Soon!)</Link></Col>
+        <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/">Other Media (Coming Soon!)</Link></Col>
       </Row>
     </Container>
     
