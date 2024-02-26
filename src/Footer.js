@@ -25,7 +25,7 @@ class MainFooter extends React.Component {
                     <li><Link className="footer-nav-link" to="/" onClick={scrollToTop}>Home</Link></li>
                     <li><Link className="footer-nav-link" to="/about" onClick={scrollToTop}>About</Link></li>
                     <li><Link className="footer-nav-link" to="/music" onClick={scrollToTop}>Music</Link></li>
-                    <li><Link className="footer-nav-link disabled" to="/" onClick={scrollToTop}>Blog</Link></li>
+                    <li><a className="footer-nav-link disabled" href="https://rogue-chevre-d9d.notion.site/e1867d53b95d4a758a627309b8176098?v=a4a344fe722d473d8c7f1b268e2c4725" target="_blank">Blog</a></li>
                     <li><Link className="footer-nav-link disabled" to="/" onClick={scrollToTop}>Media</Link></li>
                     </ul>
                 </Col>
