@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.03c37a3b.css",
-    "main.js": "/static/js/main.d7b7cc05.js",
+    "main.js": "/static/js/main.ba82277c.js",
     "static/js/453.5530e86f.chunk.js": "/static/js/453.5530e86f.chunk.js",
     "static/media/koisan.png": "/static/media/koisan.353e72a609f52f72abdb.png",
     "static/media/gingham-bg-small.png": "/static/media/gingham-bg-small.13a88b66b5921b8c8517.png",
     "index.html": "/index.html",
     "main.03c37a3b.css.map": "/static/css/main.03c37a3b.css.map",
-    "main.d7b7cc05.js.map": "/static/js/main.d7b7cc05.js.map",
+    "main.ba82277c.js.map": "/static/js/main.ba82277c.js.map",
     "453.5530e86f.chunk.js.map": "/static/js/453.5530e86f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03c37a3b.css",
-    "static/js/main.d7b7cc05.js"
+    "static/js/main.ba82277c.js"
   ]
 }
