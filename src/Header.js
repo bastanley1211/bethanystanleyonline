@@ -11,7 +11,7 @@ class MainHeader extends React.Component {
 
 
     render () {
-        return <Container id="main-header-img" className="jumbotron">
+        return <Container loading="lazy" id="main-header-img" className="jumbotron">
         <Link to="/"><Row> 
         <Col>
         <Link onClick={scrollToBottom}  style={{color: "rgb(100, 86, 73)", backgroundColor: "#fcf2e1", borderColor: "transparent", cursor: "pointer"}} id="menu-button-btn" title="Menu">Menu</Link>

@@ -9,7 +9,7 @@ const Home = () => {
       <Row>
         <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/about">About Me</Link></Col>
         <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/music">My Music</Link></Col>
-        <Col xs={12} md={6}><a className="inner-alt-box h2" href="https://rogue-chevre-d9d.notion.site/e1867d53b95d4a758a627309b8176098?v=a4a344fe722d473d8c7f1b268e2c4725">Blog</a></Col>
+        <Col xs={12} md={6}><Link className="inner-alt-box h2" to="/blog">Blog</Link></Col>
         <Col xs={12} md={6}><Link className="inner-alt-box h2 disabled" to="/">Other Media (Coming Soon!)</Link></Col>
       </Row>
     </Container>

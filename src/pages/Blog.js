@@ -1,18 +1,11 @@
-import { List } from "reactstrap";
-import blog from "../posts.json";
-import React from "react";
+import { Container } from "react-bootstrap";
+import AllPosts from "../Blog/AllPosts";
 
+const MyBlog = () => {
 
-const blogTitles = blog.title;
-
-const Blog = () => {
-    return <>
-    {blogTitles?.map((title) => (
-      <ul title={title}>{title}</ul>
-    )
-      
-    )}
-    </>
+    return <Container fluid className="Blog">  <h1 style={{fontSize: "1.5em"}}>My Blog</h1>
+  <AllPosts />
+    </Container> 
   };
   
-  export default Blog;
+  export default MyBlog;
