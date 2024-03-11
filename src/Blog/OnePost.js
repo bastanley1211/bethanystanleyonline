@@ -21,6 +21,7 @@ export default function OnePost() {
         `*[slug.current == $slug]{
           title,
           slug,
+          publishedAt,
           mainImage{
             asset->{
               _id,
@@ -29,7 +30,7 @@ export default function OnePost() {
            },
          body,
         "name": author->name,
-        "authorImage": author->image
+        "authorImage": author->image,
        }`,
         { slug }
       )
@@ -39,17 +40,17 @@ export default function OnePost() {
 
   if (!postData) return <div>Loading...</div>;
 
+  const options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
+
+  const postDate = new Date(postData.publishedAt).toLocaleDateString('en-us', options)
+  
+  console.log(postDate)
+
   return (
     <div>
       <div>
         <h2>{postData.title}</h2>
-        <div>
-          <img
-            src={urlFor(postData.authorImage).width(100).url()}
-            alt="Author is Kap"
-          />
-          <h4>{postData.name}</h4>
-        </div>
+        <p>{postDate}</p>
       </div>
       <img src={urlFor(postData.mainImage).width(200).url()} alt="" />
       <div>
@@ -57,7 +58,15 @@ export default function OnePost() {
           blocks={postData.body}
           projectId={sanityClient.projectId}
           dataset={sanityClient.dataset}
+          imageOptions={{w: 320, h: 240, fit: 'max'}}
         />
+      </div>
+      <div className="blockquote">
+      <img
+            src={urlFor(postData.authorImage).width(100).url()}
+            alt="Author is Kap"
+          />
+           <h4>{postData.name}</h4>
       </div>
       <div>
         <Link className="h5" to="/blog">Return to All Posts</Link>

@@ -8,11 +8,11 @@ import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
+ 
   <HashRouter>
   <App />
   </HashRouter>
-  </StrictMode>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function

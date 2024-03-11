@@ -9,9 +9,10 @@ export default function AllPosts() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "post"]{
+        `*[_type == "post" && publishedAt < now()]{
         title,
         slug,
+        publishedAt,
         mainImage{
           asset->{
           _id,
@@ -40,12 +41,25 @@ export default function AllPosts() {
                 <img src={post.mainImage.asset.url} alt="" style={{width: "80vw", maxWidth: "300px"}}/>
                 <span>
                   <h2>{post.title}</h2>
+                  {/* <h4>{post.publishedAt}</h4> */}
                 </span>
               </span>
-            
             </Link>
            
-          ))}
+          ))
+          
+      /*     allPostsData.slice(0,3).map(
+        ({ _id, title = '', slug = '', publishedAt = '' }) =>
+          slug && (
+            <li key={_id}>
+              <Link href={`/post/${encodeURIComponent(slug.current)}`}>
+                {title}
+              </Link>{' '}
+              ({new Date(publishedAt).toDateString()})
+            </li>
+          )
+      )} */}
+
           </Col>
           </Row>
       </Container>
